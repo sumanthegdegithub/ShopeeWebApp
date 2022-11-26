@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Genie</title>
+        <link rel="icon" href="../static/portfolioLogo.png" type="image/icon type">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="../static/style.css">
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <nav class='no-shadows'>
+            <div class="nav-wrapper">
+              <a href="/" class="brand-logo">
+                <img class="logo" src="../static/portfolioLogo.png">
+              </a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#Projects">Other Projects</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#GitHub">Github</a></li>
+              </ul>
+            </div>
+            </nav>
+        </div>
+        
+        <div><br><br><br>
+            <div class="name white-text row">
+                <center><h5><b>Welcome</b> to <b>Market Genie</b></h5>
+                    <p>Find the <b>best</b> here!</p>
+                </center>
+                <div class="col s1 m2 l2"></div>
+                <div class="col input-field s10 m8 l8">
+                    <center>
+                        <form action="/search" method="post" enctype="multipart/form-data">            
+                            <input type="text" placeholder="Make a wish!" class="white-text" name="text">
+                            <br>
+                            <h5>Have No words to describe?<b> Just imagine what you want!!</b></h5>
+                            <p>Just kidding! Please upload an image here!!</p>
+                            <input type="file" accept="image/*" name="file">
+                            <br><br><br>
+                            <button type="submit">
+                                <span>Let's Search</span>
+                            </button>
+                        </form>
+                    </center>
+                </div>
+                <div class="col s1 m2 l2">
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="white-text text container">
+                <center><h5><b>How to use this website?</b></h5></center>
+                <div>
+                    <center>
+                    There are 3000 products whose data was available in <a class="white-text" href="https://www.kaggle.com/c/shopee-product-matching">
+                    <u>shopee-product-matching</u></a> competition on kaggle is listed here.
+                    <br><br>
+                    If you want to search any product you can do it either by uploading an image of a similar product.<br>
+                    <div class="container z-depth-5">
+                        <img src="../static/Screenshot 2022-11-24 084038.png" width="100%">
+                    </div>
+                    Just click on browse button, select an image and click on open
+                    <br><br>
+                    <b>Or</b>
+                    <br><br>
+                    <div class="container z-depth-5">
+                        <img src="../static/Screenshot 2022-11-24 090415.png" width="100%">
+                    </div>
+                    You can search with keywords or describe the product in the make a wish! section
+                    <br>
+                    <br><br>
+                    <b>Or</b>
+                    <br><br>
+                    You can do both!
+                    <br><br><br><br>
+                    </center>
+                </div>
+            </div>
+            <div class="white-text" id="Contact">
+                <div class="container">
+                    <div class="row"></div>
+                        <div class="col s12 m12 l12">
+                            <div class="card horizontal no-shadows z-depth-5">
+                                <div class="container">
+                                    <h3><b>C</b>ontact Me Here</h3>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col m3 l3 s3">
+                                            <a href="mailto: reachsumanthegde@gmail.com" class="white-text btn no-shadows z-depth-5">Email</a>
+                                        </div>
+                                        <div class="col m3 l3 s3">
+                                            <a href="https://github.com/sumanthegdegithub/" class="white-text btn no-shadows z-depth-5">GitHub</a>
+                                        </div>
+                                        <div class="col m3 l3 s3">
+                                            <a href="https://www.linkedin.com/in/reachsumanthegde/" class="white-text btn no-shadows z-depth-5">LinkedIn</a>
+                                        </div>
+                                        <div class="col m3 l3 s3">
+                                            <a href="https://medium.com/@sumanthegde1999" class="white-text btn no-shadows z-depth-5">Website</a>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
